@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Custom CSS -->
+    <link href="style/style.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+  <div class="up-arrow">
+    <i class="uil uil-angle-up"></i>
+  </div>
+
+  <section class="navbar-sub">
+    <div class="container">
+      <div class="contact">
+        <ul>
+          <li><i class="uil uil-envelope"></i> contact@mail.com</li>
+          <li><i class="uil uil-phone"></i> +0011223495</li>
+        </ul>
+      </div>
+      <div class="social">
+        <ul>
+          <a href="#"><li class="social-icon"><i class="uil uil-facebook-f"></i></li></a>
+          <a href="#"><li class="social-icon"><i class="uil uil-twitter"></i></li></a>
+          <a href="#"><li class="social-icon"><i class="uil uil-youtube"></i></li></a>
+          <a href="#"><li><i class="uil uil-linkedin"></i></li></a>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <nav class="navbar navbar-expand-lg navbar-main">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarLeftAlignExample"
+        aria-controls="navbarLeftAlignExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+      <i class="uil uil-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li><a href="index.html"><img src="images/logo.png" alt="" class="p-3"></a></li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+
+  <!-- Carousel wrapper -->
+  <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <img src="images/Slider 1.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+        <div class="carousel-caption d-md-block">
+          <p>We're Design Studio Believe In Ideas</p>
+          <h1>Creative Design</h1>
+          <a href="#about-us"><Button>Get Started</Button></a>
+        </div>
+        <div class="overlay"></div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="images/Slider 2.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+        <div class="carousel-caption d-md-block">
+          <p>We're Design Studio Believe In Ideas</p>
+          <h1>Creative Design</h1>
+          <a href="#about-us"><Button>Get Started</Button></a>
+        </div>
+        <div class="overlay"></div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="images/Slider 3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+        <div class="carousel-caption d-md-block">
+          <p>We're Design Studio Believe In Ideas</p>
+          <h1>Creative Design</h1>
+          <a href="#about-us"><Button>Get Started</Button></a>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+      <span class="uil uil-angle-left"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+      <span class="uil uil-angle-right"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Carousel wrapper -->
+
+  <main>
+    <section class="about" id="about-us">
+      <div class="row">
+        <div class="col-md-6 float-end content-about justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+          <h5 class="content-title">About Us</h5>
+          <p class="content-head">We are <span>Professional Teams</span><br>to Growth your Business</p>
+          <p class="content-main">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of</p>
+          <a href="about.html"><Button>Read More</Button></a>
+        </div>
+        <div class="col-md-6 align-start float-end content-image d-flex align-items-center justify-content-center" data-aos="flip-right" data-aos-duration="2000">
+          <img src="images/about.jpg" class="img-fluid shadow-2-strong" alt="" width="400px">
+        </div>
+      </div>
+    </section>
+
+    <section class="service">
+      <h5 class="content-title" data-aos="fade-down" data-aos-duration="2000">Our Services</h5>
+      <p class="content-head"  data-aos="flip-right" data-aos-duration="2000">See what can we do for your<br>Projects</p>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/web.png"/>
+          <p>Web Development</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/design--v1.png"/>
+          <p>Graphic Design</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/marketing.png"/>
+          <p>SEO & Makerting</p>
+        </div>
+        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/online-support--v1.png"/>
+          <p>Customer Services</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/apple-app-store--v2.png"/>
+          <p>App Development</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/change-theme.png"/>
+          <p>UI/UX Design</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/packaging.png"/>
+          <p>Product Design</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service-icon" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="https://img.icons8.com/dusk/40/000000/bullish.png"/>
+          <p>Data Analyst</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+      <h5 class="content-title" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">Portfolio</h5>
+      <div class="div content-main" data-aos="fade-up" data-aos-duration="1500">
+        <p class="content-head">Our Latest Projects</p>
+        <a href="projects.html"><Button>Browse Projects <i class="uil uil-arrow-right"></i></Button></a>
+      </div>
+      <div class="row">
+        <div class="col-md-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/portfolio/work-1.jpg" class="rounded-5" alt="" width="330px">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/portfolio/work-2.jpg" class="rounded-5" alt="" width="330px">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/portfolio/work-3.jpg" class="rounded-5" alt="" width="330px">
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-md-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/portfolio/work-4.jpg" class="rounded-5" alt="" width="330px">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/portfolio/work-5.jpg" class="rounded-5" alt="" width="330px">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/portfolio/work-6.jpg" class="rounded-5" alt="" width="330px">
+        </div>  
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="clients-logo d-sm-block">
+        <div class="row"  data-aos="zoom-in" data-aos-duration="2000">
+          <div class="col d-flex justify-content-center align-item-center"><img src="images/clients/airbnb.png" alt=""></div>
+          <div class="col d-flex justify-content-center align-item-center"><img src="images/clients/google.png" alt=""></div>
+          <div class="col d-flex justify-content-center align-item-center"><img src="images/clients/mailchimp.png" alt=""></div>
+          <div class="col d-flex justify-content-center align-item-center"><img src="images/clients/paypal.png" alt=""></div>
+          <div class="col d-flex justify-content-center align-item-center"><img src="images/clients/stripe.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="row"  class="text-center"  data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+          <div class="col-md-3 image-logo-footer">
+            <img src="images/logo.png" alt="">
+          </div>
+          <div class="col-md-3">
+            <h5>Contact Information</h5>
+            <p>301 The Greenhouse, Custard Factory, London, E2 8DY.</p>
+            <p>Email : example@mail.com</p>
+            <p>Phone : +00 112323980</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Company</h5>
+            <p>Career</p>
+            <p>Resources</p>
+            <p>News & Feed</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Newsletter</h5>
+            <input type="text" class="d-block" placeholder="Enter your email">
+            <Button class="mt-2">Submit</Button>
+          </div>
+        </div>
+        <div class="container">
+          <p>Copyright 2020. All Right Reserved.</p>
+          <div class="social-icons justify-content-center align-item-center">
+            <ul>
+                <a href="#"><li><span class="uil uil-facebook-f"></span></li></a>
+                <a href="#"><li><span class="uil uil-twitter"></span></li></a>
+                <a href="#"><li><span class="uil uil-youtube"></span></li></a>
+                <a href="#"><li><span class="uil uil-linkedin"></span></li></a>
+            </ul>
+          </div>
+        </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    const up = document.querySelector(".up-arrow");
+    up.onclick =() => {
+        window.scrollTo(0,0);
+    }
+    window.onscroll=() => {
+        if (window.scrollY >= 900){
+            up.style.display="block";
+        }else {
+            up.style.display="none";
+        }
+    }
+
+  </script>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+</body>
+</html>
